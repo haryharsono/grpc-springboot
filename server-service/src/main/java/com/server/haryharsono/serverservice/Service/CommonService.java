@@ -6,9 +6,7 @@ import com.haryharsono.common.GrpcServiceData.RequestPayload;
 import com.haryharsono.common.GrpcServiceData.ResponseData;
 import io.grpc.stub.StreamObserver;
 import lombok.extern.slf4j.Slf4j;
-//import net.devh.boot.grpc.server.service.GrpcService;
 
-//@GrpcService
 @Slf4j
 public class CommonService extends CommonServiceGrpc.CommonServiceImplBase {
 
